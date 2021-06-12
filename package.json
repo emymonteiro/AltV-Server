@@ -3,7 +3,7 @@
   "version": "0.0.3",
   "description": "A basic boilerplate to get started using typescript with alt:V",
   "main": "index.js",
-  "type": "module",
+  "type": "node",
   "scripts": {
     "build": "tsc -p tsconfig-server.json && tsc -p tsconfig-client.json && npm run copy:meta",
     "build:server:watch": "tsc -w -p tsconfig-server.json",
@@ -34,5 +34,8 @@
     "@types/node": "^13.13.2",
     "cpx": "^1.5.0",
     "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "altv-rpc": "^0.1.3"
   }
 }

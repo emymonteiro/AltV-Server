@@ -1,2 +1,4 @@
 import "./handshake/index";
-import "./internalEvents/index";
+import "./events/index";
+
+console.log('teste')
