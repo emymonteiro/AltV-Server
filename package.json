@@ -8,7 +8,7 @@
     "build": "tsc -p tsconfig-server.json && tsc -p tsconfig-client.json && npm run copy:meta",
     "build:server:watch": "tsc -w -p tsconfig-server.json",
     "build:client:watch": "tsc -w -p tsconfig-client.json",
-    "copy:meta": "cd ./src && cpx resource.cfg ../resources/main/  && cpx -v \"./client/**/*.!(ts)\" ../resources/main/"
+    "copy:meta": "cd ./src && cpx resource.cfg ../resources/main/  && cpx -v \"./client/**/*.!(ts)\" ../resources/main/client/"
   },
   "repository": {
     "type": "git",

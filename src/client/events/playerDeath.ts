@@ -7,6 +7,7 @@ import * as game from 'natives'
 //let deathTimer = defaultTimer
 
 rpc.register('playerDeath', (pos) => {
+    console.log('morri')
     const localPlayer = alt.Player.local.scriptID
     const heading = game.getEntityHeading(localPlayer)
     //isDead = true
